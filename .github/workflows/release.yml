@@ -1,11 +1,7 @@
 name: Linux|MacOS|Win|WASM
 
 on:
-  push:
-    tags:        
-    - v0.*
-    branches:
-    - master
+  workflow_dispatch:
 
 jobs:
   CreateRelease:
