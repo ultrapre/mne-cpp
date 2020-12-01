@@ -1,9 +1,7 @@
 name: TestCI
 
 on:
-  push:
-    branches:
-    - testci
+  workflow_dispatch:
 
 jobs:
   MinQtDynamic:
